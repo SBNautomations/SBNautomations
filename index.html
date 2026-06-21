@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SBNautomations — Samarveer Naik's Build Log</title>
-<meta name="description" content="SBNautomations — Samarveer Naik's AI, robotics and automation projects. Class 8 student building voice assistants, sensor robots and more.">
+<meta name="description" content="SBNautomations — Samarveer Naik's AI, robotics and automation projects. Building voice assistants, sensor robots and more.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -469,7 +469,7 @@
       <div class="hero__boot" id="boot"></div>
       <h1>I teach machines to listen, move, and notice things.</h1>
       <p class="hero__sub">
-        I'm Samarveer Naik, a Class 8 student in Aurangabad, Maharashtra. I build voice
+        I'm Samarveer Naik, based in Aurangabad, Maharashtra. I build voice
         assistants, Arduino-powered robots, and sensor systems — and I'm slowly turning
         a few of those ideas into real businesses too.
       </p>
@@ -517,10 +517,6 @@
             <div>Samarveer Naik</div>
           </div>
           <div class="spec__row">
-            <div class="spec__key">Grade</div>
-            <div>Class 8</div>
-          </div>
-          <div class="spec__row">
             <div class="spec__key">Base</div>
             <div>Aurangabad, Maharashtra</div>
           </div>
@@ -562,8 +558,12 @@
               <span class="status status--paused">Paused</span>
             </summary>
             <div class="item__body">
-              <p>A voice assistant that listens for spoken commands and replies out loud,
-              built as my own take on a JARVIS-style helper.</p>
+              <p>A voice-controlled desktop assistant built with Python. It listens to voice
+              commands through a microphone, processes them using speech recognition, and
+              responds using text-to-speech. It can open applications, launch websites, tell
+              the time and date, tell jokes, and run various desktop automation tasks.</p>
+              <p>Built using Python libraries including SpeechRecognition, pyttsx3, webbrowser,
+              and os.</p>
               <p>Currently paused because my laptop doesn't have the storage to run a local
               AI model. Next step: move it onto a Raspberry Pi with a small quantized model
               and an OLED display for expressions.</p>
@@ -578,8 +578,10 @@
               <span class="status status--built">Built</span>
             </summary>
             <div class="item__body">
-              <p>An add-on for JARVIS that lets it search Google by voice and read back
-              results, so it can answer questions instead of just running fixed commands.</p>
+              <p>An upgraded version of the JARVIS Voice Assistant. When a command isn't
+              recognized, the assistant automatically searches Google and reads back relevant
+              results, extending it beyond a fixed set of built-in commands.</p>
+              <p>Combines voice recognition, browser automation, and internet search.</p>
               <div class="item__note">[ Add your demo video, code link, or screenshots here ]</div>
             </div>
           </details>
@@ -587,13 +589,15 @@
           <details class="item">
             <summary>
               <span class="item__chevron">▸</span>
-              <span class="item__name">Future Desktop AI Buddy</span>
+              <span class="item__name">Desktop AI Buddy</span>
               <span class="status status--planned">Planned</span>
             </summary>
             <div class="item__body">
-              <p>The next version of JARVIS: a small always-on desktop companion running on
-              a Raspberry Pi, with a local AI model for conversation and an OLED screen that
-              shows different expressions depending on the situation.</p>
+              <p>A future AI companion project built around a Raspberry Pi as the main
+              controller, with an LCD or OLED display to show emotions, a speaker for voice
+              responses, and a microphone for voice input.</p>
+              <p>Goal: a personal AI companion capable of holding conversations, displaying
+              emotions, and assisting with daily tasks.</p>
               <div class="item__note">[ Add your build notes as this comes together ]</div>
             </div>
           </details>
@@ -605,7 +609,10 @@
               <span class="status status--progress">In progress</span>
             </summary>
             <div class="item__body">
-              <p>This site — built to show people who I am and what I've built so far.</p>
+              <p>A modern web application built using HTML, CSS, and JavaScript. It serves
+              as a central platform to showcase my projects, skills, achievements, and future
+              innovations — with project galleries, descriptions, navigation, animations,
+              and interactive elements.</p>
               <div class="item__note">[ Keep updating this as you add new builds ]</div>
             </div>
           </details>
@@ -625,8 +632,14 @@
               <span class="status status--built">Built</span>
             </summary>
             <div class="item__body">
-              <p>A car that follows or reacts to an induced signal rather than being driven
-              directly — a fun way to explore non-contact control.</p>
+              <p>A multi-functional robotic vehicle built using an Arduino UNO, L298N motor
+              driver, four DC motors, five IR sensors, and an HC-05 Bluetooth module. It runs
+              in four different modes: Follow Mode, Line Follow Mode, Dodge Mode, and
+              Bluetooth Remote Control Mode (each detailed below).</p>
+              <p>Two front IR sensors detect and follow objects, two bottom IR sensors detect
+              lines for path following, and a top IR sensor handles obstacle avoidance. The
+              project demonstrates robotics, sensor integration, motor control, and wireless
+              communication.</p>
               <div class="item__note">[ Add the specific sensors/parts you used here ]</div>
             </div>
           </details>
@@ -638,8 +651,9 @@
               <span class="status status--built">Built</span>
             </summary>
             <div class="item__body">
-              <p>A mode where the robot tracks and follows an object or person, usually using
-              an ultrasonic or IR sensor to keep a steady distance.</p>
+              <p>One of the four modes on the Magic Induction Car. The two front IR sensors
+              detect an object or person ahead and the robot tracks and follows it,
+              maintaining a steady distance.</p>
               <div class="item__note">[ Add your build notes or demo link here ]</div>
             </div>
           </details>
@@ -651,8 +665,9 @@
               <span class="status status--built">Built</span>
             </summary>
             <div class="item__body">
-              <p>The robot tracks a marked line on the floor using IR sensors, correcting
-              its direction to stay on path.</p>
+              <p>One of the four modes on the Magic Induction Car. The two bottom IR sensors
+              detect a marked line on the floor, and the robot corrects its direction to stay
+              on path.</p>
               <div class="item__note">[ Add your build notes or demo link here ]</div>
             </div>
           </details>
@@ -664,8 +679,9 @@
               <span class="status status--built">Built</span>
             </summary>
             <div class="item__body">
-              <p>An obstacle-avoidance mode — the robot uses an ultrasonic sensor to detect
-              what's ahead and steers around it automatically.</p>
+              <p>One of the four modes on the Magic Induction Car. The top IR sensor handles
+              obstacle avoidance — detecting what's ahead and steering the robot around it
+              automatically.</p>
               <div class="item__note">[ Add your build notes or demo link here ]</div>
             </div>
           </details>
@@ -677,8 +693,8 @@
               <span class="status status--built">Built</span>
             </summary>
             <div class="item__body">
-              <p>Manual control of the robot from a phone over an HC-05 Bluetooth module,
-              usually paired with a simple app or controller interface.</p>
+              <p>One of the four modes on the Magic Induction Car. Manual control of the
+              robot from a smartphone over the HC-05 Bluetooth module.</p>
               <div class="item__note">[ Add your build notes or demo link here ]</div>
             </div>
           </details>
@@ -690,8 +706,9 @@
               <span class="status status--built">Built</span>
             </summary>
             <div class="item__body">
-              <p>A camera-equipped robot driven remotely over Bluetooth, built for sneaking
-              a look into hard-to-reach places.</p>
+              <p>A mobile-controlled robotic vehicle that receives commands through an HC-05
+              Bluetooth module, with movement controlled using a smartphone app. Demonstrates
+              wireless communication, motor control, and remote operation.</p>
               <div class="item__note">[ Add your build notes or demo link here ]</div>
             </div>
           </details>
@@ -711,8 +728,10 @@
               <span class="status status--built">Built</span>
             </summary>
             <div class="item__body">
-              <p>A robot built to assist with basic farm tasks — sensing soil or surroundings
-              and acting on that data automatically.</p>
+              <p>Designed to assist with agricultural monitoring. Uses an LDR for day/night
+              detection, an ultrasonic sensor for obstacle detection and distance measurement,
+              and Bluetooth communication for remote monitoring — helping track crop
+              conditions and improve efficiency through automation.</p>
               <div class="item__note">[ Add your build notes or demo link here ]</div>
             </div>
           </details>
@@ -724,8 +743,10 @@
               <span class="status status--built">Built</span>
             </summary>
             <div class="item__body">
-              <p>Uses ultrasonic sensors to detect whether a parking spot is free or
-              occupied and displays the result.</p>
+              <p>Automates parking management by counting vehicles entering and leaving a
+              parking area. An Arduino controls an LCD display, ultrasonic sensors, a
+              servo-operated gate, and a buzzer — showing available spaces, controlling
+              gate access, and alerting users when the area is full.</p>
               <div class="item__note">[ Add your build notes or demo link here ]</div>
             </div>
           </details>
@@ -737,8 +758,9 @@
               <span class="status status--built">Built</span>
             </summary>
             <div class="item__body">
-              <p>A timer-based system that alerts someone when it's time to take their
-              medicine, using an LCD and buzzer/LED for the reminder.</p>
+              <p>Helps users remember to take medicines on time using an Arduino, buzzer,
+              and timing logic that generates alerts at predefined intervals. Can be expanded
+              with an LCD display and a real-time clock for more advanced scheduling.</p>
               <div class="item__note">[ Add your build notes or demo link here ]</div>
             </div>
           </details>
@@ -750,8 +772,10 @@
               <span class="status status--built">Built</span>
             </summary>
             <div class="item__body">
-              <p>The lid opens automatically when it senses your hand or trash nearby,
-              using an IR or ultrasonic sensor and a servo motor.</p>
+              <p>An automatic waste disposal system that opens its lid when a person
+              approaches. Uses an ultrasonic sensor to detect nearby objects and a servo
+              motor to open and close the lid — a touchless design that improves hygiene
+              and convenience.</p>
               <div class="item__note">[ Add your build notes or demo link here ]</div>
             </div>
           </details>
@@ -763,8 +787,9 @@
               <span class="status status--built">Built</span>
             </summary>
             <div class="item__body">
-              <p>Checks soil moisture and switches on a small pump automatically when the
-              soil gets too dry.</p>
+              <p>Monitors soil moisture levels and waters plants when necessary, using
+              sensors, an Arduino controller, and a water pump to automate irrigation and
+              reduce manual effort.</p>
               <div class="item__note">[ Add your build notes or demo link here ]</div>
             </div>
           </details>
@@ -776,8 +801,9 @@
               <span class="status status--built">Built</span>
             </summary>
             <div class="item__body">
-              <p>Controls lights or appliances automatically based on sensor input, like
-              motion or light level, instead of manual switches.</p>
+              <p>A home automation project that allows automatic control of room devices
+              such as lights, fans, and appliances, using sensors and Arduino-based control
+              logic to improve convenience and energy efficiency.</p>
               <div class="item__note">[ Add your build notes or demo link here ]</div>
             </div>
           </details>
@@ -789,8 +815,9 @@
               <span class="status status--built">Built</span>
             </summary>
             <div class="item__body">
-              <p>A helmet that checks it's actually being worn before letting a vehicle
-              start, often combined with basic alcohol or impact sensing.</p>
+              <p>Improves rider safety by monitoring helmet usage and safety conditions.
+              Can detect whether the helmet is being worn and provide alerts or safety
+              notifications, combining sensors, Arduino control, and warning systems.</p>
               <div class="item__note">[ Add your build notes or demo link here ]</div>
             </div>
           </details>
@@ -802,8 +829,10 @@
               <span class="status status--built">Built</span>
             </summary>
             <div class="item__body">
-              <p>Uses a sound sensor to track noise levels in a classroom and gives a
-              visual signal when things get too loud.</p>
+              <p>Measures sound levels inside a classroom. When noise exceeds a predefined
+              threshold, the system alerts students and teachers through indicators or
+              buzzers — promoting a better learning environment through real-time
+              monitoring.</p>
               <div class="item__note">[ Add your build notes or demo link here ]</div>
             </div>
           </details>
@@ -866,7 +895,7 @@
               <span class="item__name">DHT11 Temperature &amp; Humidity</span>
               <span class="status status--built">Logged</span>
             </summary>
-            <div class="item__body"><p>Reading live temperature and humidity data with a DHT11 sensor.</p></div>
+            <div class="item__body"><p>Uses a DHT11 sensor to measure environmental temperature and humidity. The sensor sends data to an Arduino, which processes and displays the readings — useful for weather monitoring and environmental studies.</p></div>
           </details>
 
           <details class="item">
@@ -875,7 +904,7 @@
               <span class="item__name">LCD + Keypad</span>
               <span class="status status--built">Logged</span>
             </summary>
-            <div class="item__body"><p>Taking keypad input and displaying it live on an LCD screen.</p></div>
+            <div class="item__body"><p>Demonstrates user interaction through a keypad and visual output on an LCD display. Users enter information via the keypad, and the LCD shows menus, messages, or entered data — an introduction to basic UI design in embedded systems.</p></div>
           </details>
 
           <details class="item">
@@ -884,7 +913,7 @@
               <span class="item__name">PIR Motion Detection</span>
               <span class="status status--built">Logged</span>
             </summary>
-            <div class="item__body"><p>Detecting movement in a room using a PIR motion sensor.</p></div>
+            <div class="item__body"><p>Uses a Passive Infrared sensor to detect human movement. When motion is detected, the system can activate alarms, lights, or notifications — commonly used in security systems.</p></div>
           </details>
 
           <details class="item">
@@ -893,7 +922,7 @@
               <span class="item__name">Ultrasonic Distance Measurement</span>
               <span class="status status--built">Logged</span>
             </summary>
-            <div class="item__body"><p>Measuring distance to an object using an ultrasonic sensor.</p></div>
+            <div class="item__body"><p>Measures the distance between the sensor and nearby objects. The sensor emits ultrasonic waves and calculates distance based on the return time of the echo signal — useful for obstacle detection and robotics.</p></div>
           </details>
 
           <details class="item">
@@ -902,16 +931,16 @@
               <span class="item__name">LDR Light Detection</span>
               <span class="status status--built">Logged</span>
             </summary>
-            <div class="item__body"><p>Sensing ambient light levels with an LDR, often used to trigger lights automatically.</p></div>
+            <div class="item__body"><p>Uses a Light Dependent Resistor to measure ambient light intensity. The system can automatically respond to changes in lighting conditions, such as turning lights on or off.</p></div>
           </details>
 
           <details class="item">
             <summary>
               <span class="item__chevron">▸</span>
-              <span class="item__name">Bluetooth HC-05 Control Experiments</span>
+              <span class="item__name">HC-05 Bluetooth Control Experiments</span>
               <span class="status status--built">Logged</span>
             </summary>
-            <div class="item__body"><p>Early experiments sending commands to Arduino over an HC-05 Bluetooth module.</p></div>
+            <div class="item__body"><p>Explores wireless communication using the HC-05 Bluetooth module — demonstrating how a smartphone can send commands to Arduino systems, enabling remote control of robots, devices, and automation systems.</p></div>
           </details>
 
         </div>
